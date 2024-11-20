@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fun Facts App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fun Facts About Me</h1>
+    <div class="fact-container">
+        <p id="fact-display">Click the button to learn a fun fact!</p>
+    </div>
+    <button onclick="showRandomFact()">Show Another Fact</button>
+    <script src="script.js"></script>
+</body>
+</html>
