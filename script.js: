@@ -1,0 +1,17 @@
+// Array of specific, verifiable fun facts
+const funFacts = [
+    "I completed the Half Dome hike at Yosemite National Park in 2023",
+    "I've read 24 books in the past year, mostly science fiction",
+    "I learned to make sourdough bread during the pandemic",
+    "I speak English and Spanish fluently",
+    "I've been taking guitar lessons for 6 months"
+];
+
+function showRandomFact() {
+    const factDisplay = document.getElementById('fact-display');
+    const randomIndex = Math.floor(Math.random() * funFacts.length);
+    factDisplay.textContent = funFacts[randomIndex];
+}
+
+// Show a random fact when the page loads
+window.onload = showRandomFact;
